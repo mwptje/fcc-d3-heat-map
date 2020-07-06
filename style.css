@@ -1,0 +1,40 @@
+body {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /*   background: #77b2e5; */
+}
+
+main {
+  width: auto;
+  overflow: visible;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 16px;
+}
+
+main header {
+  text-align: center;
+}
+
+main .heatmap {
+  background: white;
+}
+
+div#tooltip {
+  position: absolute;
+  text-align: center;
+  padding: 2px;
+  font: 14px sans-serif;
+  background: #99ecfb;
+  border: 0px;
+  padding: 5px;
+  border-radius: 5px;
+  pointer-events: none;
+}
